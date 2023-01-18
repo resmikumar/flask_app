@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results Page</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/results.css') }}">
+
+</head>
+<body background="https://images.unsplash.com/photo-1612382308863-e8c770a5ec5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80">
+<div id="weatherResults">
+    <h3>Weather in {{ location }}</h3>
+    <h3>Temperature {{ temp }}° C</h3>
+    <h3>Feels like: {{ weather }}</h3>
+
+</div>
+</body>
+</html>
